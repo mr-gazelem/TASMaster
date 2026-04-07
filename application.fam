@@ -1,0 +1,12 @@
+# For details & more options, see documentation/AppManifests.md in firmware repo
+
+App(
+    appid="tasmaster",
+    name="TASMaster",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="tasmaster_app",
+    requires=["gui"],
+    stack_size=4 * 1024,
+    fap_icon="tasmaster.png",
+    fap_category="USB",
+)
